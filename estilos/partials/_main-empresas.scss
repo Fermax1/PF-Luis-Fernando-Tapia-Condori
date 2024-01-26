@@ -1,0 +1,18 @@
+.empresa {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+
+
+    .empresas {
+        background-color: #85BDA6;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: center;
+    
+    
+    }
+}
