@@ -1,5 +1,77 @@
 .footer {
-    background-color: #F4EEA9;
+    background-color: $color4;
     padding: 1rem;
     text-align: center;
+    
+    
+    
+
+    
+    .redes-orden {
+        display: grid;
+       
+        grid-template-columns: 1fr;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    i {
+        text-align: center;
+        font-size: 1rem;
+        color: black;
+        margin: 1rem;
+        border-radius: 50%;
+        padding: 1rem;
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+        transition: .3s ease;
+       
+    }
+
+    .fa-youtube:hover {
+        background-color: red;
+        color: white;
+        box-shadow: 0 0 15px red,
+            0 0 45px red,
+            0 0 75px red,
+            0 0 115px red;
+    }
+
+    .fa-square-facebook:hover {
+        background-color: blue;
+        color: white;
+        box-shadow: 0 0 15px blue,
+            0 0 45px blue,
+            0 0 75px blue,
+            0 0 115px blue;
+    }
+
+
+    .fa-instagram:hover {
+        background-color: purple;
+        color: white;
+        box-shadow: 0 0 15px purple,
+            0 0 45px purple,
+            0 0 75px purple,
+            0 0 115px purple;
+    }
+
+    .fa-mobile:hover {
+        background-color: green;
+        color: white;
+        box-shadow: 0 0 15px green,
+            0 0 45px green,
+            0 0 75px green,
+            0 0 115px green;
+    }
+
+    .fa-map-location-dot:hover {
+        background-color: gray;
+        color: white;
+        box-shadow: 0 0 15px gray,
+            0 0 45px gray,
+            0 0 75px gray,
+            0 0 115px gray;
+    }
+   
 }

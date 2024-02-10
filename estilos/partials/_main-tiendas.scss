@@ -6,11 +6,28 @@
     align-items: center;
     justify-content: center;
 
+    .boton-tarjeta {
+        border: none;
+        padding: 1rem;
+        margin: 1rem;
+        border-radius: 1rem;
+        background-color: beige;
+
+
+    }
+
     .tarjeta {
         background-color: $color2;
         padding: 1rem;
         border-radius: 1rem;
         text-align: center;
-       
+
+
     }
+
+
+
+
+
+
 }
